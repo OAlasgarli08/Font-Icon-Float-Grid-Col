@@ -143,10 +143,6 @@ footer{
     padding-top: 4px;
 }
 
-.footer-mid{
-    
-}
-
 #footer-mid-1{
     display: inline-block;
     margin-left: 200px;
@@ -195,4 +191,349 @@ footer{
 .footer-bottom{
     margin-left: 200px;
     padding-bottom: 20px;
+}
+
+
+.main-1{
+    background-image: url(../image/background_lg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+#main-1-top{
+    padding-top: 20px;
+}
+
+#main-1-top li{
+    display: inline-block;
+    padding-left: 50px;
+}
+
+#main-1-top li:first-child{
+    padding-right: 500px;
+    padding-left: 200px;
+    font-size: xx-large;
+}
+
+#main-1-center{
+    font-size: xx-large;
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#main-1-center p{
+    width: 600px;
+    padding-left: 800px;
+    font-size: 18px;
+    padding-top: 30px;
+    color: gray;
+}
+
+#main-1-center #p2{
+    width: 600px;
+    padding-left: 800px;
+    font-size: 15px;
+    padding-top: 50px;
+    color: gray;
+}
+
+#main-1-center li{
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    border: black 2px solid;
+    border-radius: 30px;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+
+#main-1-center a{
+    color: gray;
+}
+
+.main-2{
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
+.main-2 h1{
+    padding-bottom: 40px;
+}
+
+#main-2-1{
+    background-image: url(../image/1024x684-4.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1500px;
+    height: 300px;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 100px;
+}
+
+#main-2-1 h3{
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+#main-2-1 h1{
+    padding-left: 5px;
+    padding-top: 50px;
+    font-size: xx-large;
+}
+
+
+#moreDetails{  
+    width: 150px;
+    height: 30px;
+    background-color: gray;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#main-2-2{
+    background-image: url(../image/hero-background.png.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1500px;
+    height: 300px;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 100px;
+}
+
+#main-2-2 h3{
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+#main-2-2 h1{
+    padding-left: 5px;
+    padding-top: 50px;
+    font-size: xx-large;
+}
+
+.main-3{
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
+.main-3 h1{
+    padding-bottom: 40px;
+}
+
+#main-3-pic{
+    background-image: url(../image/digital-apps-page-litres\(1\).png.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1000px;
+    height: 400px;
+    margin-bottom: 20px;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 25px;
+}
+
+#main-3-pic h3{
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+#main-3-pic h1{
+    padding-left: 10px;
+    padding-top: 100px;
+    font-size: xx-large;
+    padding-bottom: 50px;
+}
+
+
+#main-3-pic2{
+    display: inline-block;
+    background-image: url(../image/bg.png.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1000px;
+    height: 400px;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 25px;
+}
+
+#main-3-pic2 h3{
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+#main-3-pic2 h1{
+    padding-left: 10px;
+    padding-top: 100px;
+    font-size: xx-large;
+    padding-bottom: 50px;
+    width: 400px;
+}
+
+#main-3pic3{
+    display: inline-block;
+    background-image: url(../image/mosaic-kids.png.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+#main-3pic3 h3{
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+#main-3pic3 h1{
+    padding-left: 10px;
+    padding-top: 100px;
+    font-size: xx-large;
+    padding-bottom: 50px;
+    width: 400px;
+}
+
+.main-4{
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
+.main-4 h1{
+    padding-bottom: 40px;
+}
+
+#main-4pic{
+    display: inline-block;
+    background-image: url(../image/background.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+#main-4pic h3{
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+#main-4pic h1{
+    padding-left: 10px;
+    padding-top: 90px;
+    font-size: xx-large;
+    padding-bottom: 20px;
+}
+
+#main-4pic2{
+    display: inline-block;
+    background-image: url(../image/mosaic-nntv.png.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    height: 300px;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+#main-4pic2 h3{
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+#main-4pic2 h1{
+    padding-left: 10px;
+    padding-top: 90px;
+    font-size: xx-large;
+    padding-bottom: 20px;
+}
+
+#main-4pic3{
+    background-image: url(../image/bulud-mosaic.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+#main-4pic3 h3{
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+#main-4pic3 h1{
+    padding-left: 10px;
+    padding-top: 90px;
+    font-size: xx-large;
+    padding-bottom: 20px;
+}
+
+.main-5{
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
+.main-5 h1{
+    padding-bottom: 40px;
+    color: black;
+}
+
+.main-5 p{
+    color: gray;
+    padding-left: 30px;
+}
+
+
+#main-5pic{
+    display: inline-block;
+    width: 500px;
+    height: 200px;
+    border: 3px solid black ;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+#main-5pic h1{
+    padding-top: 90px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+
+#main-5pic2{
+    width: 500px;
+    height: 200px;
+    border: 3px solid black ;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+#main-5pic2 h1{
+    padding-top: 90px;
+    padding-bottom: 20px;
+    padding-left: 30px;
 }
