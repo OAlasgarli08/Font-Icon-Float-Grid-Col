@@ -20,7 +20,7 @@ a{
 
 .header-left{
     display: inline-block;
-    margin-right: 800px;
+    margin-right: 550px;
 }
 
 .header-left li{
@@ -65,8 +65,8 @@ footer{
     padding-top: 30px;
     border-bottom: 2px solid white;
     padding-bottom: 60px;
-    margin-left: 200px;
-    margin-right: 250px;
+    margin-left: 38px;
+    margin-right: 41px;
 }
 
 #footer-top-1{
@@ -166,7 +166,7 @@ footer{
 
 #footer-mid-3{
     display: inline-block;
-    margin-left: 300px;
+    margin-left: 196px;
 }
 
 #footer-mid-3 li{
@@ -199,7 +199,7 @@ main{
 }
 
 
-.main-1{
+.main-slider{
     background-image: url(../image/sm.png.webp);
     background-repeat: no-repeat;
     background-size: cover;
@@ -207,75 +207,81 @@ main{
     width: 100%;
 }
 
-#main-1-top{
+#main-slider-top{
     padding-top: 20px;
 }
 
-#main-1-top li{
+#main-slider-top li{
     display: inline-block;
     padding-left: 50px;
 }
 
-#main-1-top li:first-child{
-    padding-right: 500px;
-    padding-left: 200px;
-    font-size: xx-large;
+#main-slider-top li:first-child{
+    padding-right: 285px;
+    padding-left: 160px;
+    font-size: x-large;
 }
 
-#main-1-center{
-    font-size: xx-large;
+#main-slider-center{
+    width: 360px;
+    font-size: x-large;
     color: white;
-    margin-top: 100px;
-    margin-left: 200px;
-    margin-right: 1300px;
+    margin-top: 90px;
+    margin-left: 160px;
 }
 
 
-#main-1-bottom{
-    margin-top: 100px;
-    padding-bottom: 40px;
-    background-color: gray;
+#main-slider-bottom{
+    background: linear-gradient(gray, transparent);
+    height: 58px;
+    margin-top: 179px;
 }
 
-#main-1-bottom p{
+#main-slider-bottom p{
     display: inline-block;
     color: white;
     padding-right: 30px;
-
+    padding-top: 10px;
+    border-right: 3px white solid;
 }
 
-.main-1-p1{  
-    margin-left: 300px;
+#main-slider-bottom p:first-child{
+    border-left: 3px white solid;
+}
+
+.main-slider-p1{  
+    margin-left: 192px;
 }
 
 
-.main-2{
+.main-tariff-designer{
     margin-top: 200px;
 }
 
-#main-2-1{
-    margin-left: 300px;
+#main-tariff-designer-1{
+    margin-left: 270px;
     display: inline-block;
+    width: 370px;
 }
 
-#main-2-1 h1{
+#main-tariff-designer-1 h1{
     font-size: xx-large;
 }
 
-#main-2-1 p{
+#mmain-tariff-designer-1 p{
     color: gray;
 }
 
 #a{
     background-color: darkorange;
-    width: 200px;
+    width: 175px;
     height: 35px;
     text-align: center;
     padding-top: 15px;
     border-radius: 30px;
 }
 
-#main-2-2{
+#main-tariff-designer-2{
     display: inline-block;
     background-image: url(../image/551x323-1.png);
     margin-left: 100px;
@@ -283,94 +289,100 @@ main{
     height: 324px;
 }
 
-.main-3{
-    margin-left: 300px;
-    margin-top: 200px;
+#tariff-packs{
+    width: 180px;
 }
 
-.main-3-1{
+.main-tariff-packs{
+    margin-left: 100px;
+    margin-top: 190px;
+}
+
+.main-tariff-packs-1{
     display: inline-block;
-    margin-right: 150px;
+    margin-right: 160px;
 }
 
-.main-3-2{
+.main-tariff-packs-2{
     display: inline-block;
+    padding-left: 100px;
 }
 
 
-.main-3 h1{
+.main-tariff-packs h1{
     font-size: x-large;
     font-weight: 800;
     display: inline-block;
     padding-right: 130px;
 }
 
-.main-3 a{
+.main-tariff-packs a{
     color: gray;
     display: inline-block;
 }
 
-#main-4-1{
+#main-number-1{
     display: inline-block;
-    margin-left: 300px;
+    margin-left: 150px;
 }
 
-#main-4-1 h1{
+#main-number-1 h1{
     font-size: xx-large;
     padding-right: 100px;
 }
 
-#main-4-1 a{
+#main-number-1 a{
     background-color: darkorange;
     height: 100px;
     width: 200px;
 }
 
-#main-4-2{
+#main-number-2{
     display: inline-block;
-    margin-top: 130px;
-    margin-left: 100px;
+    margin-top: 140px;
+    margin-left: 80px;
 }
 
-.main-5{
-    margin-left: 300px;
+.main-apps{
+    margin-left: 327px;
     margin-top: 100px;
 }
 
-.main-5 h2{
+.main-apps h2{
     display: inline-block;
-    padding-right: 900px;
+    padding-right: 393px;
 }
 
-.main-5 p{
+.main-apps p{
     display: inline-block;
     color: gray;
-    margin-right: 150px;
+    
 }
 
-#main-5-box{
+#main-apps-box{
     height: 100px;
-    width:  300px;
+    width: 330px;
     border: 1px solid black;
     border-radius: 6px;
     display: inline-block;
-    margin-right: 100px;
+    margin-right: 102px;
 }
 
-#main-6-1{
+#main-application-left{
     display: inline-block;
     margin-left: 200px;
+    width: 360px;
 }
-#main-6-1 h1{
+#main-application-left h1{
     font-size: xx-large;
 }
 
-#main-6-1 p{
+#main-application-left p{
     color: gray;
     padding-right: 30px;
 }
 
-#main-6-1 li{
+#main-application-left li{
     display: inline-block;
     text-align: center;
     border: 2px solid black;
@@ -379,26 +391,28 @@ main{
     border-radius: 20px;
 }
 
-#main-6-1 a{
+#main-application-left a{
     color: black;
 }
 
-#main-6-2{
+#main-application-mid{
+    width: 14%;
     display: inline-block;
     margin-top: 100px;
 }
 
-#main-6-3{
+#main-application-right{
+    margin-bottom: 200px;
     display: inline-block;
-    margin-left: 100px; 
+    margin-left: 180px;
 }
 
 
-#main-6-3 ul{
+#main-application-right ul{
     display: inline-block;
 }
 
-#main-6-3 li{
+#main-application-right li{
     list-style: none;
     background-color: purple;
     margin-top: 10px;
@@ -410,27 +424,27 @@ main{
 }
 
 
-.main-7{
+.main-4G{
     background-color: lightpink;
-    width: 89%;
+    width: 1287px;
     height: 300px;
     padding-top: 150px;
-    padding-left: 200px; 
+    padding-left: 200px;
 }
-.main-7 h1{
+.main-4G h1{
     font-size: xx-large;
 }
 
-.main-7 p{
+.main-4G p{
     color: gray;
 }
 
-.main-8{
+.main-balance{
     margin-left: 200px;
     margin-top: 100px;
 }
 
-.main-8-1{
+.main-balance-1{
     display: inline-block;
 }
 
@@ -441,7 +455,7 @@ main{
     text-align: center;
 }
 
-.main-8-1 .amount{
+.main-balance-1 .amount{
     display: inline-block;
 }
 
@@ -452,12 +466,12 @@ main{
     text-align: center;
 }
 
-.main-8-1 .Select-Amount{
+.main-balance-1 .Select-Amount{
     display: inline-block;
     padding-left: 50px;
 }
 
-.main-8-1 li{
+.main-balance-1 li{
     display: inline-block;
     height: 30px;
     width: 40px;
@@ -468,12 +482,12 @@ main{
 
 }
 
-.main-8-1 h1{
+.main-balance-1 h1{
     font-size: x-large;
     padding-right: 60%;
 }
 
-.main-8-2{
+.main-balance-2{
     display: inline-block;
 }
 

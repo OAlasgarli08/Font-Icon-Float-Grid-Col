@@ -20,7 +20,7 @@ a{
 
 .header-left{
     display: inline-block;
-    margin-right: 800px;
+    margin-right: 550px;
 }
 
 .header-left li{
@@ -62,11 +62,11 @@ footer{
 }
 
 .footer-top{
-    padding-top: 30px;
+        padding-top: 30px;
     border-bottom: 2px solid white;
     padding-bottom: 60px;
-    margin-left: 200px;
-    margin-right: 250px;
+    margin-left: 38px;
+    margin-right: 41px;
 }
 
 .footer-top li{
@@ -171,7 +171,7 @@ footer{
 
 #footer-mid-3{
     display: inline-block;
-    margin-left: 300px;
+    margin-left: 196px;
 }
 
 #footer-mid-3 li{
@@ -206,7 +206,7 @@ main{
 }
 
 
-.main-1{
+.main-slider{
     background-image: url(../image/main-bg_xl.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -214,57 +214,59 @@ main{
     width: 100%;
 }
 
-#main-1-top{
+#main-slider-top{
     padding-top: 20px;
 }
 
-#main-1-top li{
+#main-slider-top li{
     display: inline-block;
-    padding-left: 35px;
+    padding-left: 50px;
 }
 
-#main-1-top li:first-child{
-    padding-right: 500px;
-    padding-left: 200px;
-    font-size: xx-large;
+#main-slider-top li:first-child{
+    padding-right: 285px;
+    padding-left: 160px;
+    font-size: x-large;
 }
 
-#main-1-center{
-    font-size: xx-large;
+#main-slider-center{
+    width: 360px;
+    font-size: x-large;
     color: white;
-    margin-top: 100px;
-    margin-left: 200px;
-    margin-right: 1300px;
+    margin-top: 90px;
+    margin-left: 160px;
 }
 
-#main-1-center p{
+#main-slider-center p{
     font-size: small;
     color: gray;
 }
 
 
-#main-1-bottom{
-    margin-top: 130px;
-    padding-bottom: 40px;
-    background-color: gray;
+#main-slider-bottom{
+    background: linear-gradient(gray, transparent);
+    height: 58px;
+    margin-top: 179px;
 }
 
-#main-1-bottom p{
+#main-slider-bottom p{
     display: inline-block;
     color: white;
-    padding-right: 200px;
+    padding-right: 30px;
+    padding-top: 10px;
+    border-right: 3px white solid;
 
 }
 
-.main-1-p1{  
-    margin-left: 300px;
+.main-slider-p1{  
+    margin-left: 192px;
 }
 
-.main-2{
+.main-purpose{
     margin-top: 100px;
 }
 
-#main-2-1{
+#main-purpose-1{
     display: inline-block;
     padding-right: 200px;
     margin-left: 200px;
@@ -272,21 +274,21 @@ main{
 
 }
 
-#main-2-1 h1{
+#main-purpose-1 h1{
     font-size: xx-large;
     font-weight: 900;
 }
 
-#main-2-1 p{
+#main-purpose-1 p{
     color: gray;
     padding-bottom: 10px;
 }
 
-#main-2-2{
+#main-purpose-2{
     display: inline-block;
 }
 
-#main-2-2 img{
+#main-purpose-2 img{
     width: 600px;
 }
 
@@ -294,128 +296,127 @@ main{
     font-size: x-small;
 }
 
-.main-3 img{
+.main-dates img{
     margin-top: 300px;
-    width: 1859px;
+    width: 1484px;
 }
 
-
-.main-4{
+.main-strategy{
     margin-top: 150px;
     margin-left: 200px;
 }
 
-.main-4 h1{
+.main-strategy h1{
     width: 300px;
     font-size: xx-large;
     font-weight: 750;
 }
 
-#main-4{
+#main-strategy{
     margin-top: 100px;
 }
 
-#main-4 p{
+#main-strategy p{
     color: gray;
 }
 
 
-#main-4-L{
+#main-strategy-L{
     display: inline-block;
     margin-left: 100px;
 }
 
-#main-4-L-1{
+#main-strategy-L-1{
     width: 345px;
 }
 
-#main-4-L-1 p{
+#main-strategy-L-1 p{
     padding-top: 10px;
 }
 
-#main-4-L-2{
+#main-strategy-L-2{
     padding-top: 50px;
     width: 345px;
 }
 
-#main-4-L-2 p{
+#main-strategy-L-2 p{
     padding-top: 10px;
 }
 
-#main-4-C{
+#main-strategy-C{
     display: inline-block;
     margin-left: 80px;
 }
 
-#main-4-C img{
+#main-strategy-C img{
     width: 300px;
 }
 
 
-#main-4-R{
+#main-strategy-R{
     display: inline-block;
     margin-left: 30px;
 }
 
-#main-4-R-1{
+#main-strategy-R-1{
     width: 345px;
     padding-bottom: 50px;
 }
 
-#main-4-R-1 p{
+#main-strategy-R-1 p{
     padding-top: 10px;
 }
 
-#main-4-R-2{
+#main-strategy-R-2{
     padding-top: 50px;
     width: 345px;
 }
 
-.main-5{
+.main-operator{
     margin-top: 100px;
     margin-left: 250px;
 }
 
-.main-5 h1{
+.main-operator h1{
     width: 470px;
     font-weight: 750;
     font-size: xx-large;
 }
 
-.main-5 p{
+.main-operator p{
     color: gray;
     font-size: small;
 }
 
-.main-5 li{
+.main-operator li{
     display: inline-block;
     padding-right: 90px;
 }
 
-.main-5 li h3{
+.main-operator li h3{
     font-size: xx-large;
     color: #5c2483;
     padding-top: 50px;
 }
 
-.main-6{
+.main-responsibility{
     margin-top: 150px;
 }
 
-#main-6-L{
+#main-responsibility-L{
     display: inline-block;
     width: 500px;
     margin-right: 80px;
     margin-left: 300px;
 }
 
-#main-6-L h1{
+#main-responsibility-L h1{
     font-size: 50px;
     font-weight: 700;
     padding-bottom: 30px;
 }
 
-#main-6-L p{
+#main-responsibility-L p{
     padding-bottom: 90px;
 }
 
@@ -430,76 +431,76 @@ main{
     margin-bottom: 30px;
 }
 
-#main-6-R{
+#main-responsibility-R{
     display: inline-block;
 }
 
-#main-6-R img{
+#main-responsibility-R img{
     width: 500px;
 }
 
-.main-7{
+.main-employer{
     margin-top: 200px;
 }
 
-.main-7 img{
-    width: 1859px;
+.main-employer img{
+    width: 1484px;
 }
 
-.main-8{
+.main-innovations{
     margin-top: 100px;
-    margin-left: 400px;
+    margin-left: 300px;
 }
 
-#main-8-1{
+#main-innovations-1{
     display: inline-block;
     margin-right: 150px;
 }
 
-#main-8-1 img{
+#main-innovations-1 img{
     width: 350px;
 }
 
-#main-8-2{
+#main-innovations-2{
     display: inline-block;
     width: 450px;
 }
 
-#main-8-2 h1{
+#main-innovations-2 h1{
     padding-top: 10px;
     padding-bottom: 7px;
     font-size: x-large;
     font-weight: 800;
 }
 
-#main-8-2 p{
+#main-innovations-2 p{
     color: gray;
 }
 
 
-.main-9{
+.main-recocgnition{
     margin-top: 200px;
     margin-left: 200px;
 }
 
-#main-9-1{
+#main-recocgnition-1{
     display: inline-block;
     width: 500px;
     margin-right: 100px;
 }
 
-#main-9-1 h1{
+#main-recocgnition-1 h1{
     font-size: 30px;
     font-weight: 800;
     padding-top: 10px;
     padding-bottom: 20px;
 }
 
-#main-9-2{
+#main-recocgnition-2{
     display: inline-block;
 }
 
-#main-9-2 li{
+#main-recocgnition-2 li{
     list-style: none;
     height: 60px;
     width: 600px;
@@ -511,18 +512,18 @@ main{
     background-color: #e3e1dc;
 }
 
-#main-9-2 p{
+#main-recocgnition-2 p{
     color: gray;
     padding-top: 5px;
 }
 
-.main-10 img{
+.main-sustainability img{
     margin-top: 200px;
-    width: 1859px;
+    width: 1484px;
 }
 
 
-.main-11 p{
+.main-financialReport p{
     color: gray;
 }
 
@@ -540,12 +541,12 @@ main{
 }
 
 
-#main-11-2{
+#main-financialReport-2{
     padding-top: 30px;
     margin-left: 200px;
 }
 
-#main-11-2 li{
+#main-financialReport-2 li{
     background-color: #e3e1dc;
     height: 60px;
     width: 250px;
@@ -555,23 +556,23 @@ main{
     border-radius: 16px;
 }
 
-#main-11-2 li h3, #main-11-2 li p{
+#main-financialReport-2 li h3, #main-financialReport-2 li p{
     padding-left: 30px;
     padding-top: 5px;
 }
 
 
-.main-12{
+.main-end{
     margin-left: 200px;
     margin-top: 150px;
 }
 
-.main-12 li{
+.main-end li{
     padding-top: 10px;
     color: gray;
     list-style: circle;
 }
 
-.main-12 li:last-child{
+.main-end li:last-child{
     font-size: small;
 }
